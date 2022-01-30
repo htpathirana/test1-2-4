@@ -34,3 +34,17 @@
     height: 70px;
 
 }
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 7px;
+    font-size: 14px;
+
+}
