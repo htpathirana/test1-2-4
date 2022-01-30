@@ -4,27 +4,30 @@
 }
 .main{
     width: 100%;
-    background:linear-gradient(to top,rgba(151, 50, 50, 0.7)50%,rgba(172, 60, 60, 0.7)50%), url(Pic1.jpg);
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url(2.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     
 }
 .navbar{
-   width: 1200px;
-   height: 75px;
-   margin: auto;
+    width: 1200px;
+    height: 75px;
+    margin: auto;
 }
+
 .icon{
-     width: 200px;
-     float: none;
-     height: 70px;
+    width: 400px;
+    float: left;
+    height: 70px;
 }
+
 .logo{
-    color: rgb(146, 34, 34);
-    font-size: 20px;
-    font-family: 'Oswald', sans-serif;;
+    color:rgb(124, 10, 10);
+    font-size: 35px;
+    font-family: Arial;
     padding-left: 20px;
     float: left;
     padding-top: 10px;
-   }
+
+}
