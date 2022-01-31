@@ -53,3 +53,11 @@ ul li a{
     color: rgb(213, 230, 65);
     transition: 0.4s ease-in-out;
 }
+ul li a:hover{
+    color: rgb(240, 240, 230);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
