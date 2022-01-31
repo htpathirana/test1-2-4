@@ -48,3 +48,8 @@ ul li{
     font-size: 14px;
 
 }
+ul li a{
+    text-decoration: none;
+    color: rgb(213, 230, 65);
+    transition: 0.4s ease-in-out;
+}
