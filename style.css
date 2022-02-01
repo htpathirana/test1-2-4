@@ -48,3 +48,50 @@ ul li{
     font-size: 14px;
 
 }
+ul li a{
+    text-decoration: none;
+    color: rgb(213, 230, 65);
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(240, 240, 230);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(182, 187, 167);
+    margin-top: 0.7px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(103, 105, 105);
+    border: 1px solid rgb(159, 189, 90);
+    margin-top:0.7px;
+    margin-right: 0.9px;
+    color: rgb(240, 236, 27);
+    font-size: 15px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    background: transparent;
+    }
+    .btn:focus{
+        outline: none;
+    }
+    .srch:focus{
+        outline: none;
+    }
