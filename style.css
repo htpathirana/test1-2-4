@@ -76,3 +76,17 @@ ul li a:hover{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(103, 105, 105);
+    border: 1px solid rgb(159, 189, 90);
+    margin-top:0.7px;
+    margin-right: 0.9px;
+    color: rgb(240, 236, 27);
+    font-size: 15px;
+    border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    background: transparent;
+    }
+    
