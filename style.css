@@ -92,4 +92,6 @@ ul li a:hover{
     .btn:focus{
         outline: none;
     }
-    
+    .srch:focus{
+        outline: none;
+    }
