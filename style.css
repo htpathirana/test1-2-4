@@ -89,4 +89,7 @@ ul li a:hover{
     border-top-right-radius:5px;
     background: transparent;
     }
+    .btn:focus{
+        outline: none;
+    }
     
