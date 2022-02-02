@@ -95,3 +95,23 @@ ul li a:hover{
     .srch:focus{
         outline: none;
     }
+    .content{
+        margin-top: 400px;
+        width:1200px;
+        height: auto;
+        margin: auto;
+        color: white;
+        position: relative;
+    }
+    .content.par{
+        padding-left: 20px;
+        padding-bottom: 25px;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+    }
+    .content h1{
+        font-size: 30px;
+        padding-left: 20px;
+        margin-top: 6%;
+        letter-spacing: 2px;
+    }
