@@ -95,3 +95,11 @@ ul li a:hover{
     .srch:focus{
         outline: none;
     }
+    .content{
+        margin-top: 400px;
+        width:1200px;
+        height: auto;
+        margin: auto;
+        color: white;
+        position: relative;
+    }
