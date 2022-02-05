@@ -164,5 +164,8 @@ ul li a:hover{
         outline: none;
     
     }
+    ::placeholder{
+        color: #fff;
+       }
 
 
