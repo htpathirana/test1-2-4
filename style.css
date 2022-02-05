@@ -127,3 +127,11 @@ ul li a:hover{
         cursor: pointer;
         transition: 0.4s ease;
     }
+    .content  .cnn a{
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease;
+    }
+    .cnn:hover{
+        background: #fff;
+    }
