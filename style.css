@@ -180,5 +180,21 @@ ul li a:hover{
         cursor: pointer;
         color: rgb(192, 224, 48);
     }
+    .btn:focus{
+        outline: none;
+    }
+    .srch:focus{
+        outline: none;
+    }
+    .content{
+        margin-top: 400px;
+        width:1200px;
+        height: auto;
+        margin: auto;
+        color: white;
+        position: relative;
+    }
+
+
 
 
