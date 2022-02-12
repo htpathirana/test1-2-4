@@ -3,8 +3,8 @@
 
 body {font-family: Arial, Helvetica, sans-serif;}
 
-input[type=text], input[type=password] {
-  width: 100%;
+input[type=text], input[type=password], input[type=number]{
+  width: 45%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
@@ -12,7 +12,7 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus{
   background-color: #ddd;
   outline: none;
 }
@@ -39,15 +39,11 @@ button:hover {
 }
 
 
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
 
 
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+.signupbtn {
+  float: center;
+  width: 20%;
 }
 
 
@@ -64,7 +60,7 @@ button:hover {
 
 
 @media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
+  .signupbtn {
      width: 100%;
   }
 }
