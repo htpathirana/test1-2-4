@@ -1,57 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    function validateForm() {
+      let x = document.forms["myform"]["name"].value;
+      if (x == "") {
+        alert("Please Enter your Name");
+        return false;
+      }
+
+      let y = document.forms["myform"]["email"].value;
+      if (y == "") {
+        alert("Please Enter your Email Address");
+        return false;
+      }
+
+      let z = document.forms["myform"]["address"].value;
+      if (z == "") {
+        alert("Please Enter your Address");
+        return false;
+      }
+
+      let p = document.forms["myform"]["contactNo"].value;
+      if (p == "") {
+        alert("Please Enter your Contact Number");
+        return false;
+        
+      }
+   
+
+
+      let q = document.forms["myform"]["psw"].value;
+      if (q == "") {
+        alert("Please Enter the Password");
+        return false;
+      }
+
+      let r = document.forms["myform"]["pswrepeat"].value;
+      if (r == "") {
+        alert("Please Re Enter the Password");
+        return false;
+      }
+
+      let s = document.forms["myform"]["Seller/Buyer"];
+      if (((s[0].checked == false) && (s[1].checked == false))) {
+        alert("Please Select whether you want to be a seller or a buyer");
+        return false;
+      }
+
+      let r = document.forms["myform"]["pswrepeat"].value;
+      if (r == "") {
+        alert("Please Re Enter the Password");
+        return false;
+      }
+
+
+
+    }
+    </script>
     <link rel="stylesheet" type="text/css" href="Acc.css">
+   
 </head>
 <body background="3.jpg">
-    <form style="border:1px solid #ccc">
+  
+
+<form name="myform"   onsubmit="return validateForm()" method ="post" style="border:1px solid #ccc">
   <div class="container">
-      <center>
+    <center>
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
     <label for="name"></label>
-    <input type="text" placeholder="Enter Name" name="name" required>
-          </br>
+    <input type="text" placeholder="Enter Name" name="name" >
+  </br>
 
-    <label for="email"></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-      </br>
+  <label for="email"></label>
+    <input type="text" placeholder="Enter Email" name="email">
+  </br>
+    
 
-    <label for="address"></label>
-    <input type="text" placeholder="Enter Address" name="address" required>
-        </br>
+  <label for="address"></label>
+    <input type="text" placeholder="Enter Address" name="address" >
+  </br>
 
-    <label for="contactNo"></label>
-    <input type="text" placeholder="Enter Contact No" name="contactNo" required>
-    </br>
+  <label for="contactNo"></label>
+    <input type="number" placeholder="Contact Number" name="contactNo" >
+  </br>
 
-    <label for="psw"></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    </br>
+  <label for="psw"></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="Passwords">
+  </br>
 
-    <label for="psw-repeat"></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-</br>
-          <label><b>Seller Or Buyer  :</b></label>
+  <label for="pswrepeat"></label>
+    <input type="password" placeholder="Repeat Password" name="pswrepeat" id="Passwordss">
+  </br>
+    
+    <label><b>Seller Or Buyer  :</b></label>
 
-    Seller  
-    <input type="radio" name="Seller/Buyer"value="seller">
+Seller  
+    <input type="radio" name="Seller/Buyer"value="seller" >
     Buyer 
-    <input type="radio" name="Seller/Buyer"value="buyer">
+    <input type="radio" name="Seller/Buyer"value="buyer" >
 </br></br>
     <label>
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
     
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <p>By creating an account you agree to our <a href="#" style="color:rgb(1, 175, 166)">Terms & Privacy</a>.</p>
 
     <div class="clearfix">
+      
       <button type="submit" class="signupbtn">Sign Up</button>
-        </center>
+    </center>
     </div>
   </div>
 </form>
-      
-      <body>
-          </html>
+
+</body>
+</html>
