@@ -69,7 +69,7 @@
                 </div>
                 
                 <div class="about-buttons">
-                    <a href="#contact">Contact Us</a>
+                    <a href="#contact.php">Contact Us</a>
                     <a href="web.php">Sign in</a>
                 </div>
             </div>
