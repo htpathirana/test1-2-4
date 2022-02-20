@@ -11,7 +11,7 @@
             rgba(0, 0, 0, 0.5)50%), url(Him2.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
 }
 
 .section .container{
@@ -30,14 +30,16 @@
 .container .title h1{
     text-transform: uppercase;
     font-size: 35px;
-    color: #88941e;
+    color: #050505;
+    font-family: 'Times New Roman';
+    font-weight: 600;
 }
 
 .container .title h1::after{
     content: "";
     height: 5px;
     width: 100px;
-    background-color: #c4d156;
+    background-color: #080808;
     border-radius: 25px;
     display: block;
     margin: auto;
@@ -53,14 +55,16 @@
 }
 
 .image-section img{
+    margin-top: 100px;
     width: 100%;
     height: auto;
 }
 
 .content  h2{
-    color: #056e3d;
+    color: #0fdf20;
     font-family: 'Times New Roman';
-    font-size: 50px;
+    font-size: 90px;
+    font-weight: 600;
     padding-left: 20px;
     margin-top: 9%;
     letter-spacing: 2px;
@@ -70,33 +74,17 @@
     margin-top: 20px;
     font-size: 16px;
     line-height: 1.5;
-    color: #000;
+    color: rgb(15, 15, 15);
 }
 
- .content .article .span{
-    color: #ff7200;
+ 
+.content span{
+    color: rgb(8, 4, 75);
     font-size: 60px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
 }
 
- .button{
-    margin-top: 80px;
-}
-
- .button a{
-    text-decoration: none;
-    padding: 8px 25px;
-    background-color: #88941e;
-    border-radius: 40px;
-    color: #fff;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-}
-
-.button a:hover{
-    color: #fff;
-    background-color: #f28f92;
-    transition: 1s ease;
-}
 
 .social{
     width: 100%;
