@@ -77,11 +77,11 @@
 <body>
   
 
-<form name="myform"   onsubmit="return validateForm()" method ="post" style="border:1px solid #ccc">
+<form action="signup.php" onsubmit="return validateForm()" method ="post" style="border:1px solid #ccc">
   <div class="container">
     <center>
     <h1>Sign Up</h1>
-    <p>You already have an account Please <a href="log in.html" style="color:rgb(1, 175, 166)">log in</a> here</p>
+    <p>You already have an account Please <a href="log in.php" style="color:rgb(1, 175, 166)">log in</a> here</p>
     <hr>
     <label for="name"></label>
     <input type="text" placeholder="Enter Name" name="name" >
@@ -111,9 +111,9 @@
     <label><b>Seller Or Buyer  :</b></label>
 
 Seller  
-    <input type="radio" name="Seller/Buyer"value="seller" >
+    <input type="radio" name="identity" value="1" >
     Buyer 
-    <input type="radio" name="Seller/Buyer"value="buyer" >
+    <input type="radio" name="identity" value="2" >
 </br></br>
     
     
