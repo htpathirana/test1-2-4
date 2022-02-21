@@ -1,8 +1,8 @@
 <?php
-// var_dump('dsa');die('dsa');
+
 include 'dbconnect.php';
 
-if($_POST){
+ if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $address = $_POST['address'];
@@ -10,37 +10,103 @@ if($_POST){
     $psw = $_POST['psw'];
     $pswrepeat = $_POST['pswrepeat'];
     $identity = $_POST['identity'];
-
-
-if($psw == $pswrepeat){
-    $query = "SELECT  `username`, `email`, `address`, `password`, `contact`, `identity` FROM `users` 
-    WHERE `username`= '$name', `email`= '$email',`address`= '$address', `contact`= '$contactNo',`identity`= '$identity'";  
-    $result = mysqli_query($con, $sql); 
-    $row_cnt = $result->num_rows;
-
-    if($row_cnt>0){
-        //record already existing
-        header("Location: index.php?m=3");
-    }else{
-        //insert data
-        $sql = "INSERT INTO `users` ( `username`, `email`, `address`, `password`, `contact`, `identity`)
-        VALUES ('$name','$email','$address','$psw','$contactNo','$identity')";
-       //  var_dump($sql);die('sds');
-       mysqli_query($con, $sql); 
+    if (isset($_POST['Ploythene'])) {
+      $ploythene = $_POST['Ploythene'];
+    }
+    else {
+      $ploythene=" ";
+    }
    
-       header("Location: index.php?m=1");
+     if (isset($_POST['Glass'])) {
+      $glass = $_POST['Glass'];
+    }
+    else {
+      $glass=" ";
+    }
+   
+
+ if (isset($_POST['Husked'])) {
+      $husked = $_POST['Husked'];
+    }
+    else {
+      $husked=" ";
+    }
+   
+    if (isset($_POST['books'])) {
+      $books = $_POST['books'];
+    }
+    else {
+      $books=" ";
+    }
+   
+    if (isset($_POST['electronic'])) {
+      $electronic = $_POST['electronic'];
+    }
+    else {
+      $electronic=" ";
+    }
+   
+    if (isset($_POST['vehicle'])) {
+      $vehicle = $_POST['vehicle'];
+    }
+    else {
+      $vehicle=" ";
+    }
+   
+
+
+
+      
+
+
+    $query = "SELECT * FROM users WHERE email = '{$email}' LIMIT 1";
+
+
+
+    $result_set = mysqli_query($con, $query);
+
+
+
+    if ($result_set) {
+
+      if (mysqli_num_rows($result_set) == 1) {
+
+
+ $message2="User already Exists";
+
+
+  echo'<script type="text/javascript">
+              window.alert("'.$message2.'");
+
+              setTimeout(setAlert, 100);
+function setAlert() {
+              location.href="web.php?m=1";}
+              </script>';
+   
+    }else{
+        
+     $sql = "INSERT INTO users (username, email, address, password, contact, identity, ploythene, glass, husked, books, vehicle, electronic)
+        VALUES ('$name','$email','$address','$psw','$contactNo','$identity','$ploythene','$glass','$husked','$books','$vehicle','$electronic')";
+       
+       mysqli_query($con, $sql); 
+
+
+$message="Account Succesfully Created";
+
+
+  echo'<script type="text/javascript">
+              window.alert("'.$message.'");
+
+              setTimeout(setAlert, 100);
+function setAlert() {
+              location.href="index.php?m=1";}
+              </script>';
+   
+       
     }
 
-    
-}else{
-    //passwords not matched
-    header("Location: index.php?m=2");
+
 }
 }
 
-
-<<<<<<< HEAD
 ?>
-=======
-?>
->>>>>>> 6ab9c6f12e22495c76d2f4ff35f12a466fd054f3
