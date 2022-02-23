@@ -8,15 +8,18 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="seller11.css">
 
     <title>seller</title>
 </head>
 <body>
+<header class="header">
+	<img src="5608-remreview.png">
+    <a href="index.php" class="logo"> </i> ZeroWaste. </a>
     <header><!-- header start -->
         <nav class="navbar navbar-expand-lg fixed-top"><!-- nav start -->
             <div class="container">
-                <a class="navbar-brand" href="index.html">Seller</a>
+                <a class="navbar-brand" href="index.php">Seller</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
                 </button>
@@ -24,15 +27,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        More
-                    </a>
+                    <li class="nav-item"><a class="nav-link" href="About Us.php">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="donate.php">Donation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="buyer.php">buyer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="web.php">Account</a></li>
+                    
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#life">Life History</a>
                         <a class="dropdown-item" href="#testimonials">Testimonials</a>
@@ -46,9 +47,23 @@
         </nav><!-- nav end -->
 
         <div class="container header-content w-md-50 w-100">
-            <img src="don.jpg" alt="Mark Waugh"><!-- small image -->
+        <div class="content">
+          <p class="par">"A small business is an amazing way<br>
+          to serve and leave an impact on the world you live in."</p><br><br><br><br><br><br><br><br>Whatever items you're looking to shift, you've got multiple ways to remove these possessions from your life without simply tossing them into the garbage. Here's how to tackle that big declutter responsibly and safely,and if you'd like to make some money from your unwanted stuff,
+<br>Hurry Up !! and join us !! <br>
+            </p>
+        
+            <div class="form">
+                <h4>Login Here</h4>
+                <input type="email" name="email" placeholder="Enter Email Here"><br>
+                <input type="password" name="" placeholder="Enter Password Here"><br>
+                <button class="btnn"><a href="#">Login</a></button>
+        </div>
+            </div>    
+    
+    </div>
             <div class="content">
-                <h2>"Service to others is the rent you pay for your room here on earth"</h2>
+                <h2></h2>
             </div>
         </div>
     </header><!-- header end -->
@@ -56,18 +71,20 @@
     <div class="section container-fluid about" id="about"><!-- about start -->
         <div class="row">
             <div class="col-md-4 col-12">
-                <img src="original.jfif" alt="Mark Waugh">
+                <img src="welc.jpg" alt="Mark Waugh">
             </div>
             <div class="col-md-8 col-12">
                 <div class="content">
                     <h2>Welcome To Our Site</h2>
-                    <p>We give a voice to future generations and stand up for their rights by providing policy tools to empower <br>thousands of people all around sri lanka.</p>
+                    <p>We understand the importance of being environmentally responsible,<br>and can offer you solutions to do the same.
+                        We always work quickly <br>and offer our services at competitive rates.
+                        Our crew is flexible and willing to bend to meet the needs of our customers.</p>
                     <p>Would you like to join with us?</p>
                 </div>
                 
                 <div class="about-buttons">
                     <a href="#contact">Contact Us</a>
-                    <a href="#signin">Sign in</a>
+                    <a href="web.php">Sign in</a>
                 </div>
             </div>
         </div>
@@ -81,22 +98,22 @@
                     <div class="col-md-4 col-12">
                         <div class="single-service">
                             <i class="fa fa-magic" aria-hidden="true"></i>
-                            <h4>Schools</h4>
-                            <p>We would like to donate items to selected schools throughout Sri Lanka.</p>
+                            <h4></h4>
+                            <p>To people those who like to start their own business</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-12">
                         <div class="single-service">
                             <i class="fa fa-desktop" aria-hidden="true"></i>
-                            <h4>selected children's home</h4>
-                            <p>We would like to donate items to selected children's homes throughout Sri Lanka.</p>
+                            <h4></h4>
+                            <p>to people those who have creative ideas</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-12">
                         <div class="single-service">
                             <i class="fa fa-code" aria-hidden="true"></i>
-                            <h4>selected libraries</h4>
-                            <p>We would like to donate items to selected libraries throughout Sri Lanka, especially books and other related materials.</p>
+                            <h4></h4>
+                            <p>To companies that do not have enough components to design their product</p>
                         </div>
                     </div>
                 </div>
@@ -105,40 +122,40 @@
     </div><!-- service end -->
 
     <div class="section gallery container" id="gallery"><!-- gallery start -->
-        <h2>Expected Materials</h2>
+        <h2>What materials can you sell here?</h2>
         <div class="row images">
             <div class="imgBox col-md-4 col-12">
-                <div><img src="books.jpeg" alt="Books"><p>Recomended-Books</p></div>
+                <div><img src="ply.jpg" alt="Books"><p>Polythene</p></div>
             </div>
             <div class="imgBox col-md-4 col-12">
-                <div><img src="school-supplies.jpg" alt="Gallery"><p>education-materials</p></div>
+                <div><img src="glsrm.png" alt="Gallery"><p>Glass</p></div>
             </div>
             <div class="imgBox col-md-4 col-12">
-                <div><img src="960x0.jpg" alt="Gallery"><p>clothes</p></div>
+                <div><img src="coco.jpg" alt="Gallery"><p>Coconut Husks</p></div>
             </div>
             <div class="imgBox col-md-4 col-12">
-                <div><img src="1123.jpg" alt="Gallery"><p>Books</p></div>
+                <div><img src="bkpr.jpg" alt="Gallery"><p>Used Books and Papers</p></div>
             </div>
             <div class="imgBox col-md-4 col-12">
-                <div><img src="1123.jpg" alt="Gallery"><p>Books</p></div>
+                <div><img src="rmcar.png" alt="Gallery"><p>Used Vehicle Parts</p></div>
             </div>
             <div class="imgBox col-md-4 col-12">
-                <div><img src="1123.jpg" alt="Gallery"><p>Books</p></div>
+                <div><img src="rmbck1.png" alt="Gallery"><p>clothes</p></div>
             </div>
             <div class="imgBox col-md-4 col-12">
-                <div><img src="1123.jpg" alt="Gallery"><p>Books</p></div>
+                <div><img src="eldss.jpg" alt="Gallery"><p>used electronic devices</p></div>
             </div>
             <div class="imgBox col-md-4 col-12">
-                <div><img src="1123.jpg" alt="Gallery"><p>Books</p></div>
+                <div><img src="1.jpg" alt="Gallery"><p>other recycle materials</p></div>
             </div>
         </div>
-        <p>If you can donate such items please contact us</p>
+        <p>would you like to sell such items please contact us!</p>
+        <div class="btn2">
+        <p><a href="web.php">Sell Now</a></p>
+        </div>
     </div><!-- gallery end -->
 
     
-
-
-
     <div class="section contact" id="contact">
         <div class="container">
             <h2>Contact Me</h2>
@@ -165,8 +182,8 @@
                 <div class="col-lg-6 col-12">
                     <div class="content">
                         <ul>
-                            <li><a href="#!"><i class="fa fa-map-marker"></i>PO Box 1212, London, UK</a></li>
-                            <li><a href="#!"><i class="fa fa-envelope"></i>info@example.com</a></li>
+                            <li><a href="#!"><i class="fa fa-map-marker"></i>No:221B,Pitipana Road,Homagama.</a></li>
+                            <li><a href="#!"><i class="fa fa-envelope"></i> zerowaste21.1@gmail.com </a></li>
                             <li><a href="#!"><i class="fa fa-phone"></i>+7-800-999-800</a></li>
                             <li><a href="#!"><i class="fa fa-info"></i>Download Resume</a></li>
                         </ul>
@@ -180,10 +197,10 @@
         <div class="section container footer">
             <div class="footer-social">
                 <ul>
-                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/ZeroWaste-110922141522261"><i class="fa fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/ZeroWas47282809"><i class="fa fa-twitter"></i></a></li>
+                    <a href="https://github.com/htpathirana/web-page-development-project-2022-"target="blank"> <i class="fab fa-github"></i> github </a>
+                    <li><a href="https://www.instagram.com/zerowaste21.1/"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
