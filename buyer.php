@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="buyer.css">
+    <link rel="stylesheet" href="buyer12.css">
 
     <title>buyer</title>
 </head>
@@ -56,7 +56,7 @@
                 <h4>Login Here</h4>
                 <input type="email" name="email" placeholder="Enter Email Here"><br>
                 <input type="password" name="" placeholder="Enter Password Here"><br>
-                <button class="btnn"><a href="#">Login</a></button>
+                <button class="btnn"><a href="log in.php">Login</a></button>
         </div>
             </div>    
     
